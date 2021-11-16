@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.styling {
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 102, 0);
+}
+
+.styling:hover {
+    color: rgb(0, 78, 131);
+}
+
+body {
+    height: 100%;
+    background-color: rgb(88, 209, 199);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+#edit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btnAdd:hover {
+    opacity: 80%;
+    font-size: 15px;
+    background-color: rgb(255, 102, 0);
+}
+
+.edit .btn-secondary #btnAdd:hover {
+    opacity: 80%;
+    font-size: 15px;
+    background-color: rgb(255, 102, 0);
+}
+
+#root {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* #editBtn:hover {
+    opacity: 80%;
+    font-size: 15px;
+    background-color: rgb(255, 102, 0);
+}
+
+#deleteBtn:hover {
+    opacity: 80%;
+    font-size: 15px;
+    background-color: rgb(255, 102, 0);
+} */
